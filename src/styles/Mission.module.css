@@ -1,0 +1,57 @@
+.mission-card {
+   max-width: 260px;
+   margin-right: 0;
+   margin-bottom: 1rem;
+}
+
+.image {
+   background-color: #ccc;
+   text-align: center;
+}
+
+.image img {
+   height: 180px;
+   width: 175px;
+}
+
+.mission-content {
+   padding-top: 1rem;
+}
+
+.mission-name {
+   color: #35395c;
+   font-size: 1.2rem;
+}
+
+.mission-id {
+   margin-block: 0.5rem;
+   display: flex;
+   flex-direction: column;
+}
+
+.mission-id ul {
+   margin-left: 3rem;
+   color: #35395c;
+}
+
+.mission-launch,
+.mission-succ__launch,
+.mission-succ__landing {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-block: 0.5rem;
+}
+
+.mission-launch h3,
+.mission-succ__launch h3,
+.mission-succ__landing h3 {
+   width: 50%;
+}
+
+.mission-launch span,
+.mission-succ__launch span,
+.mission-succ__landing span {
+   color: #35395c;
+   margin-right: 1rem;
+}

@@ -1,0 +1,17 @@
+.landing-page__content {
+   display: grid;
+   width: 75%;
+   margin-inline: auto;
+}
+
+.developer h2 {
+   text-align: center;
+}
+
+@media (min-width: 44rem) {
+   .landing-page__content {
+      margin-inline: auto;
+      width: 100%;
+      grid-template-columns: 1fr auto;
+   }
+}
